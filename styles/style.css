@@ -18,7 +18,7 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   align-items: center;
-  place-items: end;
+  place-items: center;
 }
 
 h1,
@@ -74,6 +74,7 @@ ol {
   grid-template-columns: 225px 212px 194px;
   justify-content: space-between;
   width: 711px;
+  margin-top: auto;
 }
 
 .search-form__fieldset {
@@ -100,7 +101,9 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 20px;
+  gap: 15px;
+  margin-top: 1px;
+  margin-bottom: 5px;
 }
 
 .search-form__pseudo-checkbox {
@@ -142,6 +145,8 @@ ol {
 .search-form__label {
   display: flex;
   width: fit-content;
+  align-items: center;
+  margin-top: 8px;
 }
 
 .search-form:last-child {
@@ -172,7 +177,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  padding-bottom: 17px;
+  margin-bottom: 23px;
 }
 
 .result__video {
@@ -257,7 +262,7 @@ ol {
 .content__video-card-thumbnail {
   display: block;
   justify-self: end;
-  width: 190px;
+  width: 194px;
   height: 103px;
   object-position: center;
   object-fit: cover;
@@ -286,6 +291,7 @@ ol {
   text-decoration: none;
   color: #ffffff;
 }
+
 .content__video-card-title {
   width: 196px;
   font-family: "Oswald", sans-serif;
@@ -295,6 +301,7 @@ ol {
   text-transform: uppercase;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 4px;
 }
 
 .content__video-card-description {
