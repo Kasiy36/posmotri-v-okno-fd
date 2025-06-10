@@ -228,6 +228,10 @@ ol {
   line-height: 100%;
 }
 
+.content__list-item:not(:last-child) {
+  padding-bottom: 4px;
+}
+
 .content__list-container {
   position: relative;
   overflow: auto;
@@ -299,9 +303,9 @@ ol {
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
+  padding-block-end: 3px;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-top: 4px;
 }
 
 .content__video-card-description {
@@ -320,9 +324,9 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
   width: 390px;
   border-width: 1px;
+  margin-top: 30px;
 }
 
 .button:active {
