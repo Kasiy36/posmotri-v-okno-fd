@@ -169,8 +169,7 @@ ol {
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 386px;
-  margin-bottom: 16px;
+  height:386px;
 }
 
 .result__video {
@@ -256,10 +255,6 @@ ol {
   flex-grow: 1;
 }
 
-/* .content__list-item {
-  margin-bottom: 25px;
-} */
-
 .title {
   font-family: "Oswald", sans-serif;
   font-size: 75px;
@@ -267,7 +262,6 @@ ol {
   line-height: 0.94;
   text-transform: uppercase;
   cursor: default;
-  /* margin-bottom: 30px; */
 }
 
 .content__accent {
@@ -287,7 +281,6 @@ ol {
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
-  padding-block-end: 3px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
