@@ -54,12 +54,9 @@ ol {
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 711px 399px;
-  padding: 133px 30px;
-  place-items: end;
+  display: flex;
+  align-items: flex-end;
   justify-items: center;
-  grid-template-areas: "result" "content__detalis";
   gap: 30px;
 }
 
