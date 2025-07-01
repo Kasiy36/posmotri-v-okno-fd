@@ -10,6 +10,8 @@ html {
 
 .page {
   display: flex;
+  align-items: center;
+  justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -146,9 +148,7 @@ ol {
 
 .search-form__textfield {
   font-family: "Fira Sans Condensed", sans-serif;
-  width: 225px;
-  height: 27px;
-  gap: 10px;
+  inline-size: 225px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -209,13 +209,12 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  align-self: baseline;
 }
 
 .content__list-container {
   position: relative;
   overflow: auto;
-  height: 320px;
+  block-size: 320px;
 }
 
 .button {
@@ -232,26 +231,24 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   gap: 10px;
   cursor: pointer;
 }
 
 .content__video-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+display: flex;
 }
 
 .content__video-card-thumbnail {
   display: block;
-  justify-self: end;
-  width: 194px;
-  height: 103px;
+  inline-size: 194px;
+  block-size: 103px;
   object-position: center;
   object-fit: cover;
 }
 
 .content__video-card-description-container {
+  display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
